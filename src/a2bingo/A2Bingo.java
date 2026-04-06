@@ -37,8 +37,8 @@ public class A2Bingo {
             try {
                 opcion = Integer.parseInt(teclado.nextLine().trim());
             } catch (NumberFormatException e) {
-                System.out.println("Opcion no valida, continua el juego...");
-                opcion = 1;
+                //System.out.println("Opcion no valida, continua el juego...");
+                opcion = -1;
             }
 
             switch (opcion) {
@@ -50,7 +50,7 @@ public class A2Bingo {
                     // Continúa el bucle, se extrae la siguiente bola
                     break;
                 case 2:
-                    System.out.print("Introduce los nmeros a comprobar (ej: 5,17,34,52,71): ");
+                    System.out.print("Introduce los numeros a comprobar (ej: 5,17,34,52,71): ");
                     String linea = teclado.nextLine().trim();
                     try {
                         boolean resultado = bingo.comprobarLineaBingo(linea);

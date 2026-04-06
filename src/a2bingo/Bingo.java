@@ -50,6 +50,7 @@ public class Bingo {
         do {
             bola = random.nextInt(90) + 1;
         } while (bolasSalidas.contains(bola));
+        // antes o después saldrá una bola que no está
         bolasSalidas.add(bola);
         return bola;
     }
