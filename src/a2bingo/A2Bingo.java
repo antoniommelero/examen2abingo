@@ -20,6 +20,7 @@ public class A2Bingo {
         Scanner teclado = new Scanner(System.in);
         boolean jugar = true;
         System.out.println("BINGO IES Juan Bosco");
+        System.out.println("Version 1.0 LTS");
         final String MENSAJE = "[0-Salir  1-Siguiente bola  2-Comprobar linea/bingo  3-Nueva partida]";
 
         while (jugar) {
