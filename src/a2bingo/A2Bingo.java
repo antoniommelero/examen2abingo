@@ -16,7 +16,7 @@ public class A2Bingo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Bingo bingo = new Bingo();
+        BingoArray bingo = new BingoArray();
         Scanner teclado = new Scanner(System.in);
         boolean jugar = true;
         System.out.println("BINGO IES Juan Bosco");
